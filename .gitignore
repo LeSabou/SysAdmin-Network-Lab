@@ -1,0 +1,26 @@
+# Secrets — JAMAIS dans le repo
+*.key
+*.pem
+*.crt
+*_rsa
+*_ed25519
+id_*
+.env
+*.secret
+secrets.yml
+vault-password*
+*.tfvars
+*.tfstate
+*.tfstate.*
+
+# Ansible
+*.retry
+vault.pass
+
+# Terraform
+.terraform/
+
+# Divers
+*.log
+*.swp
+.DS_Store
